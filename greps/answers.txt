@@ -26,13 +26,32 @@ grep "^wart" filescan_00.4 > wartortle.txt
 # Part 2
 ### a)
 
-grep -c "^blas" filescan_00.1
 
-
-
+inside captured directory --> ls | wc -l
+15 (not including instructions.txt)
 
 ### b)
 
+grep -c "^blas" filescan_00.1 - 38
+grep -c "^beed" filescan_00.1 - 40
+grep -c "^bulb" filescan_00.1 - 30
+grep -c "^butt" filescan_00.1 - 38
+
+grep -c "izard$" filescan_00.2 - 40
+grep -c "mander$" filescan_00.2 - 36
+grep -c "meleon$" filescan_00.2 - 37
+
+grep -c "^ivys" filescan_00.3 - 33
+grep -c "^jigg" filescan_00.3 - 34
+grep -c "^meow" filescan_00.3 - 33
+grep -c "^pika" filescan_00.3 - 40
+
+grep -c "^psyd" filescan_00.4 - 37
+grep -c "^squi" filescan_00.4 - 34
+grep -c "^venu" filescan_00.4 - 32
+grep -c "^wart" filescan_00.4 - 37
+
+Three biggest pokemon: Beedrill, Charizard, Pikachu
 
 
 
